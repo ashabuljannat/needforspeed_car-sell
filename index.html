@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Need for speed</title>
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/style2.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <a href="#" class="logo"> <span>needfor</span>speed</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">vehicle</a>
+        <a href="#services">services</a>
+        <a href="#featured">featured</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div id="login-btn">
+        <button class="btn">Login</button>
+        <i class="far fa-user"></i>
+      </div>
+    </header>
+
+    <div class="login-form-container">
+      <span class="fas fa-times" id="close-login-form"></span>
+
+      <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="email" class="box" />
+        <input type="password" placeholder="password" class="box" />
+        <p>forget your password <a href="#">click here</a></p>
+        <input type="submit" value="login now" class="btn" />
+        <p>or login with</p>
+        <div class="buttons">
+          <a href="#" class="btn">google</a>
+          <a href="#" class="btn">Facebook</a>
+        </div>
+        <p>don't have an account <a href="#">create a new account</a></p>
+      </form>
+    </div>
+
+    <section class="home" id="home">
+      <h1 class="home-parallax" data-speed="1">Grab your speed</h1>
+      <img
+        class="home-parallax"
+        data-speed="3"
+        src="./assets/home-img.png"
+        alt=""
+      />
+      <a href="#" class="btn">explore cars</a>
+    </section>
+
+    <section class="icons-container">
+      <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+          <h3>30+</h3>
+          <p>branches</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>470+</h3>
+          <p>cars sold</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+          <h3>590+</h3>
+          <p>clients satisfaction</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>890+</h3>
+          <p>new cars</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="home_car">
+      <div class="shape shape__big2"></div>
+      <div class="shape shape__small2"></div>
+      <div class="grid2">
+        <div>
+          <h1 class="home__title2">Choose The Best Car</h1>
+          <h2 class="home__subtitle2">Porsche Mission E</h2>
+          <h3 class="home__elec2">
+            <i class="ri-flashlight-fill"></i>Electric Car
+          </h3>
+        </div>
+        <img src="./assets/home.png" alt="" class="home__img2" />
+        <div class="home__car2">
+          <div>
+            <div class="home__car-icon2">
+              <i class="ri-temp-cold-line"></i>
+            </div>
+            <h2 class="home__car-number2">24°</h2>
+            <h3 class="home__car-name2">TEMPERATURE</h3>
+          </div>
+
+          <div>
+            <div class="home__car-icon2">
+              <i class="ri-dashboard-3-line"></i>
+            </div>
+            <h2 class="home__car-number2">873</h2>
+            <h3 class="home__car-name2">MILEAGE</h3>
+          </div>
+
+          <div>
+            <div class="home__car-icon2">
+              <i class="ri-flashlight-fill"></i>
+            </div>
+            <h2 class="home__car-number2">94%</h2>
+            <h3 class="home__car-name2">BATTERY</h3>
+          </div>
+        </div>
+
+        <a href="#" class="home__button2">START</a>
+      </div>
+    </section>
+
+    <section class="vehicles" id="vehicles">
+      <h1 class="heading">popular <span>vehicles</span></h1>
+
+      <div class="swiper veiculos-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="./assets/vehicle-1.png" alt="" />
+            <div class="content">
+              <h3>new model</h3>
+              <div class="price"><span>price : </span> $62,000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span>2021
+                <span class="fas fa-circle"></span>Automatic
+                <span class="fas fa-circle"></span>petrol
+                <span class="fas fa-circle"></span>183mph
+              </p>
+              <a href="#" class="btn">check out</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/vehicle-2.png" alt="" />
+            <div class="content">
+              <h3>new model</h3>
+              <div class="price"><span>price : </span> $62,000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span>2021
+                <span class="fas fa-circle"></span>Automatic
+                <span class="fas fa-circle"></span>petrol
+                <span class="fas fa-circle"></span>183mph
+              </p>
+              <a href="#" class="btn">check out</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/vehicle-3.png" alt="" />
+            <div class="content">
+              <h3>new model</h3>
+              <div class="price"><span>price : </span> $62,000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span>2021
+                <span class="fas fa-circle"></span>Automatic
+                <span class="fas fa-circle"></span>petrol
+                <span class="fas fa-circle"></span>183mph
+              </p>
+              <a href="#" class="btn">check out</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/vehicle-4.png" alt="" />
+            <div class="content">
+              <h3>new model</h3>
+              <div class="price"><span>price : </span> $62,000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span>2021
+                <span class="fas fa-circle"></span>Automatico
+                <span class="fas fa-circle"></span>petrol
+                <span class="fas fa-circle"></span>183mph
+              </p>
+              <a href="#" class="btn">check out</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/vehicle-5.png" alt="" />
+            <div class="content">
+              <h3>new model</h3>
+              <div class="price"><span>price : </span> $62,000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span>2021
+                <span class="fas fa-circle"></span>Automatic
+                <span class="fas fa-circle"></span>petrol
+                <span class="fas fa-circle"></span>183mph
+              </p>
+              <a href="#" class="btn">check out</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="./assets/vehicle-6.png" alt="" />
+            <div class="content">
+              <h3>new model</h3>
+              <div class="price"><span>price : </span> $62,000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span>2021
+                <span class="fas fa-circle"></span>Automatic
+                <span class="fas fa-circle"></span>petrol
+                <span class="fas fa-circle"></span>183mph
+              </p>
+              <a href="#" class="btn">check out</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="car_features">
+      <h2 class="section__title">More Features</h2>
+
+      <div class="features__container grid2">
+        <div class="features__group">
+          <img
+            src="./assets/features.png"
+            alt="features"
+            class="features__img"
+          />
+
+          <div class="features__card features__card-1">
+            <h3 class="features__card-title">800v</h3>
+            <p class="features__card-description">
+              Turbo <br />
+              Chargin
+            </p>
+          </div>
+
+          <div class="features__card features__card-2">
+            <h3 class="features__card-title">350</h3>
+            <p class="features__card-description">
+              Km <br />
+              Range
+            </p>
+          </div>
+
+          <div class="features__card features__card-3">
+            <h3 class="features__card-title">480</h3>
+            <p class="features__card-description">
+              Km <br />
+              Travel
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <img src="./assets/map.svg" alt="map-img" class="features__map" />
+    </section>
+
+    <section class="services" id="services">
+      <h1 class="heading">our <span>services</span></h1>
+
+      <div class="box-container">
+        <div class="box swiper-slide">
+          <i class="fas fa-car"></i>
+          <h3>car / parts selling</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos eum consectetur quos officiis, consequatur sit suscipit
+
+            <a href="#" class="btn">more information</a>
+          </p>
+        </div>
+
+        <div class="box swiper-slide">
+          <i class="fas fa-tools"></i>
+          <h3>repair</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos eum consectetur quos officiis, consequatur sit suscipit
+
+            <a href="#" class="btn">more information</a>
+          </p>
+        </div>
+
+        <div class="box swiper-slide">
+          <i class="fas fa-car-crash"></i>
+          <h3>car insurance</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos eum consectetur quos officiis, consequatur sit suscipit
+
+            <a href="#" class="btn">more information</a>
+          </p>
+        </div>
+
+        <div class="box swiper-slide">
+          <i class="fas fa-car-battery"></i>
+          <h3>battery replacement</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos eum consectetur quos officiis, consequatur sit suscipit
+
+            <a href="#" class="btn">more information</a>
+          </p>
+        </div>
+
+        <div class="box swiper-slide">
+          <i class="fas fa-gas-pump"></i>
+          <h3>oil change</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos eum consectetur quos officiis, consequatur sit suscipit
+
+            <a href="#" class="btn">more information</a>
+          </p>
+        </div>
+
+        <div class="box swiper-slide">
+          <i class="fas fa-headset"></i>
+          <h3>24/7 support</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos eum consectetur quos officiis, consequatur sit suscipit
+
+            <a href="#" class="btn">more information</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>featured</span> cars</h1>
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="box swiper-slide">
+            <img src="./assets/car-1.png" alt="" />
+            <h3>novo model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">check out</a>
+          </div>
+
+          <div class="box swiper-slide">
+            <img src="./assets/car-2.png" alt="" />
+            <h3>novo model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">check out</a>
+          </div>
+
+          <div class="box swiper-slide">
+            <img src="./assets/car-3.png" alt="" />
+            <h3>novo model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">check out</a>
+          </div>
+
+          <div class="box swiper-slide">
+            <img src="./assets/car-4.png" alt="" />
+            <h3>novo model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">check out</a>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="./assets/car-5.png" alt="" />
+            <h3>novo model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">check out</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/car-6.png" alt="" />
+            <h3>novo model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">check out</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/car-7.png" alt="" />
+            <h3>novo model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">check out</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/car-8.png" alt="" />
+            <h3>novo model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$55,00/-</div>
+            <a href="#" class="btn">check out</a>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h3>subscribe for latest updates</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
+        expedita debitis molestias ducimus esse delectus harum fuga repudiandae
+        reprehenderit voluptatem. Obcaecati ullam blanditiis consequatur
+        repellendus laborum ab ipsam maiores unde!
+      </p>
+
+      <form action="">
+        <input type="email" placeholder="enter your email" name="" id="" />
+        <input type="submit" name="" class="subscribe" id="" />
+      </form>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <h1 class="heading">client's <span>review</span></h1>
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="./assets/pic-1.png" alt="" />
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur quae, corporis hic voluptatem dignissimos numquam
+                reiciendis quisquam? Vitae quasi deleniti obcaecati rem modi
+                repudiandae voluptatum id nihil soluta, rerum recusandae.
+              </p>
+              <h3>john deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/pic-2.png" alt="" />
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur quae, corporis hic voluptatem dignissimos numquam
+                reiciendis quisquam? Vitae quasi deleniti obcaecati rem modi
+                repudiandae voluptatum id nihil soluta, rerum recusandae.
+              </p>
+              <h3>alis amy</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="./assets/pic-3.png" alt="" />
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur quae, corporis hic voluptatem dignissimos numquam
+                reiciendis quisquam? Vitae quasi deleniti obcaecati rem modi
+                repudiandae voluptatum id nihil soluta, rerum recusandae.
+              </p>
+              <h3>jhon sina</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="./assets/pic-4.png" alt="" />
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur quae, corporis hic voluptatem dignissimos numquam
+                reiciendis quisquam? Vitae quasi deleniti obcaecati rem modi
+                repudiandae voluptatum id nihil soluta, rerum recusandae.
+              </p>
+              <h3>amber hard</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="./assets/pic-5.png" alt="" />
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur quae, corporis hic voluptatem dignissimos numquam
+                reiciendis quisquam? Vitae quasi deleniti obcaecati rem modi
+                repudiandae voluptatum id nihil soluta, rerum recusandae.
+              </p>
+              <h3>ven dissil</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="./assets/pic-6.png" alt="" />
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur quae, corporis hic voluptatem dignissimos numquam
+                reiciendis quisquam? Vitae quasi deleniti obcaecati rem modi
+                repudiandae voluptatum id nihil soluta, rerum recusandae.
+              </p>
+              <h3>kite winslet</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="logos">
+      <div class="logos__container grid2">
+        <div class="logos__content">
+          <img src="./assets/logo1.png" alt="" class="logos__img" />
+        </div>
+
+        <div class="logos__content">
+          <img src="./assets//logo2.png" alt="" class="logos__img" />
+        </div>
+
+        <div class="logos__content">
+          <img src="./assets//logo3.png" alt="" class="logos__img" />
+        </div>
+
+        <div class="logos__content">
+          <img src="./assets//logo4.png" alt="" class="logos__img" />
+        </div>
+
+        <div class="logos__content">
+          <img src="./assets//logo5.png" alt="" class="logos__img" />
+        </div>
+
+        <div class="logos__content">
+          <img src="./assets//logo6.png" alt="" class="logos__img" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61414.33811348955!2d-48.09152483940123!3d-15.835764021740275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a32eb9657e16f%3A0x4153e84da2a38cae!2sAlameda%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1642282224885!5m2!1spt-BR!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form action="">
+          <h3>get in touch</h3>
+          <input type="text" placeholder="name" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="number" placeholder="number" class="box" />
+          <textarea
+            placeholder="message"
+            class="box"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="send message" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>our branches</h3>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>India</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Bangladesh</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Pakistan</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>africa</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Russia</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> vehicles </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> services </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+          <a href="#"><i class="fas fa-phone"></i>+123-456-7890</a>
+          <a href="#"
+            ><i class="fas fa-envelope"></i>need.for.speed@gmail.com
+          </a>
+          <a href="#"
+            ><i class="fas fa-map-marker-alt"></i>dhaka, bangladesh
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>contact link</h3>
+          <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+          <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+          <a href="#"><i class="fab fa-instagram"></i>Intagram</a>
+          <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+          <a href="#"><i class="fab fa-pinterest"></i>Pinterest</a>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
