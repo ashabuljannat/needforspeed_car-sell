@@ -1,11 +1,11 @@
-# Responsive Car Selling 
+# Car Selling 
+#need-for-speed 
 
-Este projeto foi desenvolvido para fins de estudos, seguindo o seguinte tutorial: [Link](https://www.youtube.com/watch?v=tuURYMcX8S8&ab_channel=Mr.WebDesigner)
 
-## Tecnologias utilizadas
+## Tecnologias
 
 - HTML
 - CSS
 - JavaScript
 
-[DEMO](https://joaopedro191.github.io/Responsive-Car-Selling)
+[DEMO]http://need-for-speed.surge.sh/
